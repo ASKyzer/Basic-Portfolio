@@ -1,0 +1,70 @@
+body {
+  color: #777777;
+}
+
+html {
+  background-image: url("../images/greycircles.png");
+  background-repeat: repeat;
+
+}
+
+#navBar {
+  height: 60px;
+  background-color: white;
+  border: 1px solid #dddddd;
+  padding: 0 10%;
+}
+
+  .myName {
+    float: left;
+    background-color: #4aaaa5;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 15px;
+  }
+    .myName h1 {
+      color: #ffffff;
+      font-size: 34px;
+      text-align: center;
+  }
+
+  .navMenu {
+    float: right;
+    background-color: white;
+    height: 60px;
+    line-height: 60px;
+    display: flex;
+  }
+
+    .navMenu p {
+      padding-left: 15px;
+    }
+
+.container {
+  margin: 50px 10%;
+}
+
+#myInfo {
+  float left:
+  width: 70%;
+  background-color: white;
+  border: 1px solid #dddddd;
+  padding: 15px;
+}
+
+  .aboutMe h2 {
+    border-bottom: 3px solid #dddddd;
+    color: #4aaaa5;
+    font-size: 24px;
+    height: 40px;
+  }
+
+  #profilePic {
+    width: 200px;
+  }
+
+#myContacts {
+  float: right;
+  width: 30%;
+  background-color: white;
+}
