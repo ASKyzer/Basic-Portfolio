@@ -1,10 +1,13 @@
-body {
-  color: #777777;
-}
 
-html {
+
+html body {
   background-image: url("../images/greycircles.png");
   background-repeat: repeat;
+  font-family: 'Roboto', sans-serif;
+  color: #777777;
+  height: 100%;
+
+
 
 }
 
@@ -44,9 +47,13 @@ html {
   margin: 50px 10%;
 }
 
+#myInfo,
+#myContacts {
+  float: left;
+}
+
 #myInfo {
-  float left:
-  width: 70%;
+  width: 60%;
   background-color: white;
   border: 1px solid #dddddd;
   padding: 15px;
@@ -60,11 +67,70 @@ html {
   }
 
   #profilePic {
-    width: 200px;
+    margin-right: 20px;
   }
 
+.myBio {
+  padding-top: 20px;
+}
+
+.myBio p {
+  line-height: 2;
+}
+
 #myContacts {
-  float: right;
   width: 30%;
   background-color: white;
+  border: 1px solid #dddddd;
+  height: 150px;
+  margin-left: 5%;
+}
+
+.contactIcons h2 {
+  border-bottom: 3px solid #dddddd;
+  color: #4aaaa5;
+  font-size: 22px;
+  margin: 15px;
+  padding-bottom: 18px;
+}
+
+.mediaIcons {
+  margin: 15px;
+  text-align: center;
+}
+
+  .mediaIcons img {
+    height: 45px;
+  }
+
+  .mediaIcons a:nth-child(2) {
+    padding: 0 10%;
+  }
+
+footer {
+  clear: both;
+  color: lightgray;
+  background-color: #666666;
+  border: 5px solid #4aaaa5;;
+  height: 100px;
+  text-align: center;
+}
+
+footer p {
+  line-height: 100px;
+}
+
+.siteFooter {
+  border-top: 10px solid #4aaaa5;;
+
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
 }
