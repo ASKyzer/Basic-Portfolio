@@ -3,7 +3,6 @@
 html body {
   background-image: url("../images/greycircles.png");
   background-repeat: repeat;
-  /* font-family: 'Roboto', sans-serif; */
   color: #777777;
   height: 100%;
   margin: 0 auto;
@@ -11,8 +10,6 @@ html body {
 
 .container {
   width: 960px;
-  align-items: center;
-  align-content: center;
   margin: 0 auto;
 }
 
@@ -24,42 +21,44 @@ html body {
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-  .myName {
-    float: left;
-    background-color: #4aaaa5;
-    height: 80px;
-    line-height: 80px;
-    padding: 0 25px;
-  }
-    .myName h1 {
-      color: #ffffff;
-      font-size: 44px;
-      text-align: center;
-  }
-
-  .navMenu {
-    float: right;
-    background-color: white;
-    height: 80px;
-    line-height: 80px;
+.myName {
+  float: left;
+  background-color: #4aaaa5;
+  height: 80px;
+  line-height: 80px;
+  padding: 0 25px;
+}
+  .myName h1 {
+    color: #ffffff;
+    font-size: 44px;
+    text-align: center;
   }
 
-    .navMenu a {
-      font-size: 18px;
-      color: #777777;
-      padding: 0 20px;
-      text-decoration: none;
-      border-left: 1px solid #666666;
+.navMenu {
+  float: right;
+  background-color: white;
+  height: 80px;
+  line-height: 80px;
+}
+  .navMenu a {
+    font-size: 18px;
+    color: #777777;
+    padding: 0 20px;
+    text-decoration: none;
+    border-left: 1px solid #666666;
+  }
+    /* changes the font color to gold when the mouse is over the menu item */
+    .navMenu a:hover {
+      color: #c89d04;
     }
-      .navMenu a:hover {
-        color: #c89d04;
-      }
-      .navMenu a:nth-child(3) {
-        padding-right: 0px;
-      }
-      .navMenu a:nth-child(1) {
-        border: none;
-      }
+    /* gets rid of the padding only for the last menu item so it is flushed with the right of the container */
+    .navMenu a:nth-child(3) {
+      padding-right: 0px;
+    }
+    /* gets rid of the left border only for the first menu item */
+    .navMenu a:nth-child(1) {
+      border: none;
+    }
 
 #myInfo {
   float: left;
@@ -69,27 +68,25 @@ html body {
   padding: 25px;
 }
 
-  .sectionTitle h2 {
-    border-bottom: 3px solid #dddddd;
-    color: #4aaaa5;
-    font-size: 30px;
-    font-weight: bold;
-    height: 50px;
-  }
+.sectionTitle h2 {
+  border-bottom: 3px solid #dddddd;
+  color: #4aaaa5;
+  font-size: 30px;
+  font-weight: bold;
+  height: 50px;
+}
 
-  #profilePic {
-    margin-right: 20px;
-    border: 1px solid #dddddd;
-
-  }
+#profilePic {
+  margin-right: 20px;
+  border: 1px solid #dddddd;
+}
 
 .myBio {
   padding-top: 20px;
 }
-
-.myBio p {
-  line-height: 2;
-}
+  .myBio p {
+    line-height: 2;
+  }
 
 #myContacts {
   float: right;
@@ -112,13 +109,13 @@ html body {
   margin: 15px;
   text-align: center;
 }
-
   .mediaIcons a img {
     height: 55px;
+    width: auto;
   }
-
+  /* puts a 30px space between the icons by giving only the second icon a l and r padding */
   .mediaIcons a:nth-child(2) {
-    padding: 0 10%;
+    padding: 0 30px;
   }
 
 footer {
@@ -129,22 +126,21 @@ footer {
   height: 100px;
   text-align: center;
 }
-
+/* centering the Copyright vertically in the footer */
 footer p {
   line-height: 100px;
 }
-
+/* adds a teal border to the top of the footer */
 .siteFooter {
   border-top: 10px solid #4aaaa5;;
-
 }
-
+/* .site or the body is displayed at least to the height of the viewport */
 .site {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
 }
-
+/* setting .site-content flex:1 allows it to grow as needed to fill the vh */
 .site-content {
   flex: 1;
   margin-top: 80px;
@@ -156,7 +152,6 @@ footer p {
 .myForm {
   padding-top: 20px;
 }
-
   .myForm h4 {
     font-size: 20px;
     margin-bottom: 5px;
@@ -178,7 +173,7 @@ textarea {
   font-size: 16px;
   color: #cccccc;
 }
-
+/* submit button stylihng */
 button {
   background-color: #4aaaa5;
   font-size: 16px;
@@ -186,8 +181,6 @@ button {
   width: 120px;
   color: white;
 }
-
-
 /* portfolio screenshots */
 .myWork a img {
   height: 200px;
@@ -196,10 +189,10 @@ button {
   border: 1px solid #dddddd;
 }
 
+/* portfolio section with abstract images as placeholders and link goes back to the top of the page */
 .portContainer {
   margin-top: 40px;
 }
-
   .port1 {
   float: left;
   }
@@ -215,10 +208,7 @@ button {
   .port5 {
     float: left;
   }
-
-
 /* changing placeholder texts  */
-
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: #c89d04;
   opacity: .5;
@@ -235,9 +225,3 @@ button {
   color: #c89d04;
   opacity: .5;
 }
-
-
-
-
-
-/* changing placeholder texts  */

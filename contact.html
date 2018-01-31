@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
+
   <head>
+
     <meta charset="utf-8">
     <title>Adrian Sander Kyzer</title>
-    <!-- link to stylesheet style.css and reset.css-->
+<!-- link to stylesheet style.css and reset.css-->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/reset.css">
-    <!-- Linking google fonts roboto -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
   </head>
 
@@ -25,44 +25,44 @@
         </div>
       </div>
     </header>
-
-    <div class="container site-content">
-        <section id="myInfo">
-          <div class="sectionTitle">
-            <h2>Contact</h2>
+      <div class="container site-content">
+      <section id="myInfo">
+        <div class="sectionTitle">
+          <h2>Contact</h2>
+        </div>
+          <div class="myForm">
+<!-- form for people to send me email using formspree.io -->
+            <form method="POST" action="https://formspree.io/YOUREMAILHERE">
+              <h4>Name</h4>
+              <input type="text" name="" placeholder="  Jane Smith">
+              <br>
+              <h4>Email</h4>
+              <input type="email" name="email" placeholder="   example@gmail.com">
+              <br>
+              <h4>Message</h4>
+              <textarea name="message" placeholder="   Enter your message here."></textarea>
+              <br>
+              <button type="submit">Submit</button>
+            </form>
           </div>
-            <div class="myForm">
-              <form method="POST" action="https://formspree.io/YOUREMAILHERE">
-                <h4>Name</h4>
-                <input type="text" name="" placeholder="  Jane Smith">
-                <br>
-                <h4>Email</h4>
-                <input type="email" name="email" placeholder="   example@gmail.com">
-                <br>
-                <h4>Message</h4>
-                <textarea name="message" placeholder="   Enter your message here."></textarea>
-                <br>
-                <button type="submit">Submit</button>
-              </form>
-            </div>
-        </section>
-
-        <section id="myContacts">
-          <div class="contactIcons">
-            <h2>Connect with Me</h2>
-            <div class="mediaIcons">
-              <a href="https://github.com/ASKyzer" target="_blank"> <img src="assets/images/GitHub.png" alt="GitHub Logo"> </a>
-              <a href="https://www.linkedin.com/in/adrian-kyzer-a19211139/" target="_blank"> <img src="assets/images/linkedIn.png" alt="LinkedIn Logo"> </a>
-              <a href="https://instagram.com/adriansander" target="_blank"> <img src="assets/images/instagram.png" alt="Instagram Logo"> </a>
-            </div>
+      </section>
+<!-- sidebar with social media icon links -->
+      <section id="myContacts">
+        <div class="contactIcons">
+          <h2>Connect with Me</h2>
+          <div class="mediaIcons">
+            <a href="https://github.com/ASKyzer" target="_blank"> <img src="assets/images/GitHub.png" alt="GitHub Logo"> </a>
+            <a href="https://www.linkedin.com/in/adrian-kyzer-a19211139/" target="_blank"> <img src="assets/images/linkedIn.png" alt="LinkedIn Logo"> </a>
+            <a href="https://instagram.com/adriansander" target="_blank"> <img src="assets/images/instagram.png" alt="Instagram Logo"> </a>
           </div>
-        </section>
-
-      </div>
-
-      <footer class="siteFooter">
-        <p>&copy; Copyright 2018 Adrian Kyzer</p>
-      </footer>
+        </div>
+      </section>
+    </div>
+<!-- page (sticky) footer -->
+    <footer class="siteFooter">
+      <p>&copy; Copyright 2018 Adrian Kyzer</p>
+    </footer>
 
   </body>
+
 </html>
