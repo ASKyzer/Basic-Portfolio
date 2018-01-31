@@ -6,64 +6,74 @@ html body {
   font-family: 'Roboto', sans-serif;
   color: #777777;
   height: 100%;
+  margin: 0 auto;
+}
 
-
-
+.container {
+  width: 960px;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
 }
 
 #navBar {
-  height: 60px;
+  height: 80px;
   background-color: white;
   border: 1px solid #dddddd;
-  padding: 0 10%;
 }
 
   .myName {
     float: left;
     background-color: #4aaaa5;
-    height: 60px;
-    line-height: 60px;
-    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 25px;
   }
     .myName h1 {
       color: #ffffff;
-      font-size: 34px;
+      font-size: 44px;
       text-align: center;
   }
 
   .navMenu {
     float: right;
     background-color: white;
-    height: 60px;
-    line-height: 60px;
-    display: flex;
+    height: 80px;
+    line-height: 80px;
   }
 
-    .navMenu p {
-      padding-left: 15px;
+    .navMenu a {
+      font-size: 18px;
+      color: #777777;
+      padding: 0 20px;
+      text-decoration: none;
+      border-left: 1px solid #666666;
     }
+      .navMenu a:hover {
+        color: #c89d04;
+      }
+      .navMenu a:nth-child(3) {
+        padding-right: 0px;
+      }
+      .navMenu a:nth-child(1) {
+        border: none;
+      }
 
-.container {
-  margin: 50px 10%;
-}
-
-#myInfo,
-#myContacts {
-  float: left;
-}
 
 #myInfo {
+  float: left;
   width: 60%;
   background-color: white;
   border: 1px solid #dddddd;
-  padding: 15px;
+  padding: 25px;
 }
 
   .aboutMe h2 {
     border-bottom: 3px solid #dddddd;
     color: #4aaaa5;
-    font-size: 24px;
-    height: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    height: 50px;
   }
 
   #profilePic {
@@ -79,17 +89,18 @@ html body {
 }
 
 #myContacts {
+  float: right;
   width: 30%;
   background-color: white;
   border: 1px solid #dddddd;
   height: 150px;
-  margin-left: 5%;
 }
 
 .contactIcons h2 {
   border-bottom: 3px solid #dddddd;
   color: #4aaaa5;
-  font-size: 22px;
+  font-size: 18px;
+  font-weight: bold;
   margin: 15px;
   padding-bottom: 18px;
 }
@@ -133,4 +144,62 @@ footer p {
 
 .site-content {
   flex: 1;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+/* styling for contacts.html and form*/
+input, textarea {
+  width: 99%;
+  margin-bottom: 20px;
+}
+
+input {
+  height: 30px;
+  margin: 3px 15px 20px 0;
+  font-size: 16px;
+  color: lightgray
+}
+
+textarea {
+  height: 240px;
+  padding-top: 20px;
+  font-size: 16px;
+  color: #cccccc;
+}
+
+button {
+  background-color: #4aaaa5;
+  font-size: 16px;
+  height: 40px;
+  width: 120px;
+  color: white;
+}
+/* portfolio screenshots */
+.myWork a img {
+  height: 200px;
+  width: 260px;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+
+}
+
+.portContainer {
+  margin-top: 40px;
+}
+
+.port1 {
+float: left;
+}
+.port2 {
+  float: right;
+}
+.port3 {
+  float: left;
+}
+.port4 {
+  float: right;
+}
+.port5 {
+  float: left;
 }

@@ -2,44 +2,64 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Adrian's Portfolio</title>
+    <title>Adrian Sander Kyzer</title>
     <!-- link to stylesheet style.css and reset.css-->
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- Linking google fonts roboto -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
-  <body>
+  <body class="site">
 
     <header id="navBar">
-      <div class="myName">
-        <h1>Adrian Sander Kyzer</h1>
-      </div>
-      <div class="navMenu">
-        <p>About</p>
-        <p>Portfolio</p>
-        <p>Contact</p>
+      <div class="container">
+        <div class="myName">
+          <h1>Adrian Kyzer</h1>
+        </div>
+        <div class="navMenu">
+          <a href="index.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="portfolio.html">Portfolio</a>
+        </div>
       </div>
     </header>
 
-    <section id="myInfo">
-      <div class="myWork">
-        <h2>Portfolio</h2>
-        <a href="#" target="_blank"><img src="../images/adrian-fur.jpg" alt="Portfolio"></a>
-        <a href="#" target="_blank"><img src="../images/adrian-fur.jpg" alt="Portfolio"></a>
-        <a href="#" target="_blank"><img src="../images/adrian-fur.jpg" alt="Portfolio"></a>
-        <a href="#" target="_blank"><img src="../images/adrian-fur.jpg" alt="Portfolio"></a>
-        <a href="#" target="_blank"><img src="../images/adrian-fur.jpg" alt="Portfolio"></a>
-      </div>
-      <div class="contactIcons">
-        <h3>Connect with Me</h3>
-        <a href="https://github.com/ASKyzer" target="_blank"> <img src="../images/github.png" alt="Github Logo"> </a>
-        <a href="https://www.linkedin.com/in/adrian-kyzer-a19211139/" target="_blank"> <img src="../images/linkedin.png" alt="LinkedIn Logo"> </a>
-        <a href="https://instagram.com/adriansander" target="_blank"> <img src="../images/instagram.png" alt="Instagram Logo"> </a>
-      </div>
-    </section>
+    <div class="container site-content">
+        <section id="myInfo">
+          <div class="aboutMe">
+            <h2>Portfolio</h2>
+          </div>
+          <div class="myWork">
+            <div class="portContainer">
+              <a class="port1" href="#" target="_blank"><img src="assets/images/adrian-fur.jpg" alt="Portfolio"></a>
+              <a class="port2" href="#" target="_blank"><img src="assets/images/adrian-fur.jpg" alt="Portfolio"></a>
+            </div>
+            <div class="portContainer">
+              <a class="port3" class="img1" href="#" target="_blank"><img src="assets/images/adrian-fur.jpg" alt="Portfolio"></a>
+              <a class="port4" href="#" target="_blank"><img src="assets/images/adrian-fur.jpg" alt="Portfolio"></a>
+            </div>
+            <div class="portContainer">
+              <a class="port5" href="#" target="_blank"><img src="assets/images/adrian-fur.jpg" alt="Portfolio"></a>
+            </div>
+          </div>
+        </section>
 
-    <footer>
-      <p>&copy; Copyright 2018 Adrian Kyzer</p>
-    </footer>
+        <section id="myContacts">
+          <div class="contactIcons">
+            <h2>Connect with Me</h2>
+            <div class="mediaIcons">
+              <a href="https://github.com/ASKyzer" target="_blank"> <img src="assets/images/github.png" alt="Github Logo"> </a>
+              <a href="https://www.linkedin.com/in/adrian-kyzer-a19211139/" target="_blank"> <img src="assets/images/linkedin.png" alt="LinkedIn Logo"> </a>
+              <a href="https://instagram.com/adriansander" target="_blank"> <img src="assets/images/instagram.png" alt="Instagram Logo"> </a>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+      <footer class="siteFooter">
+        <p>&copy; Copyright 2018 Adrian Kyzer</p>
+      </footer>
 
   </body>
 </html>
