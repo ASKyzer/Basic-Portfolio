@@ -78,6 +78,8 @@ html body {
 
   #profilePic {
     margin-right: 20px;
+    border: 1px solid #dddddd;
+
   }
 
 .myBio {
@@ -110,8 +112,8 @@ html body {
   text-align: center;
 }
 
-  .mediaIcons img {
-    height: 45px;
+  .mediaIcons a img {
+    height: 65px;
   }
 
   .mediaIcons a:nth-child(2) {
