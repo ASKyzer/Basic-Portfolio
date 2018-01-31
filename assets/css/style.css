@@ -1,5 +1,4 @@
 
-
 html body {
   background-image: url("../images/greycircles.png");
   background-repeat: repeat;
@@ -126,9 +125,9 @@ footer {
   height: 100px;
   text-align: center;
 }
-/* centering the Copyright vertically in the footer */
-footer p {
-  line-height: 100px;
+  /* centering the Copyright vertically in the footer */
+  footer p {
+    line-height: 100px;
 }
 /* adds a teal border to the top of the footer */
 .siteFooter {
@@ -143,8 +142,9 @@ footer p {
 /* setting .site-content flex:1 allows it to grow as needed to fill the vh */
 .site-content {
   flex: 1;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  /* puts spacing between the main content and the header and footer of 40px*/
+  margin-top: 40px;
+  margin-bottom: 40px;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -188,7 +188,6 @@ button {
   margin-bottom: 20px;
   border: 1px solid #dddddd;
 }
-
 /* portfolio section with abstract images as placeholders and link goes back to the top of the page */
 .portContainer {
   margin-top: 40px;
