@@ -121,9 +121,10 @@ footer {
   clear: both;
   color: lightgray;
   background-color: #666666;
-  border: 5px solid #4aaaa5;;
+  border-top: 10px solid #4aaaa5;
   height: 100px;
   text-align: center;
+
 }
   /* centering the Copyright vertically in the footer */
   footer p {
@@ -131,7 +132,7 @@ footer {
 }
 /* adds a teal border to the top of the footer */
 .siteFooter {
-  border-top: 10px solid #4aaaa5;;
+  /* border-top: 10px solid #4aaaa5; */
 }
 /* .site or the body is displayed at least to the height of the viewport */
 .site {
